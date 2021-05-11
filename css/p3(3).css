@@ -1,0 +1,70 @@
+/* Simple Reset */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* Codeplayer says you can use any background here */
+  background-color: black;
+
+
+}
+
+canvas {
+  display: block;
+  background: url("../Photo/scarf.png");
+  background-size: cover;
+  position: relative;
+}
+
+.intro{
+   position: absolute;
+   width: 250px;
+   top: 100px; 
+   left: 50px;  
+   color: white;
+   text-align: center;
+   line-height: 150%;
+}
+
+
+
+h2  { 
+   position: absolute; 
+   top: 100px; 
+   left: 80px;  
+   color: white;
+   text-align: center;
+}
+
+h5 {
+   position: absolute; 
+   top: 500px; 
+   left: 195px;  
+   color: white;
+}
+
+
+a {
+  display: block;
+  width: 150px;
+  height: 30px;
+  background-color: black;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  text-indent: 2em;
+  border-radius: 15px;
+}
+
+a:hover {
+  background-color: #1E1E1E;
+  transition: all .3s ease-in-out
+}
+
+p {
+   position: absolute; 
+   top: 150px; 
+   left: 30px;  
+   color: white;

@@ -1,0 +1,68 @@
+* {
+  /* 初始化 取消页面的内外边距 */
+  padding: 0;
+  margin: 0;
+}
+body {
+  /* 弹性布局 让页面元素水平+垂直居中 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* 让页面始终占浏览器总高 */
+  height: 100vh;
+  background-color: #111;
+  /* 视距 让元素看起来更有3D效果 */
+  perspective: 900px;
+}
+a {
+  display: block;
+  width: 30px;
+  height: 30px;
+  top: 590px; 
+  left: 850px; 
+  background-color: orange;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+  text-indent: 2em;
+  border-radius: 50px;
+  z-index: 1;
+  position: absolute;
+}
+
+
+a:hover{
+  background-color: #1E1E1E;
+  transition: all .3s ease-in-out
+}
+
+h1{
+  z-index: 0;
+  color: white;
+  top: 550px;
+  text-align: center;
+  border-radius: 2em;
+  position: absolute;
+}
+.play-video{
+  top: 80px;
+}
+
+.text-style{
+  width: 600px;
+  height: 200px;
+  font-size: 18px;
+  z-index: 1;
+}
+
+.text-style h1{
+  color: white;
+  -webkit-box-reflect: below -3px -webkit-gradient(linear, 0 0, 0 100%, from(white), to(transparent));
+}
+
+.text-style{
+  position: absolute;
+  top: 10px;
+  left: 450px;
+  text-align: center;
+}

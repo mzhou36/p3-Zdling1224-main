@@ -1,0 +1,456 @@
+
+body {
+	 margin: 0px;
+	 background: black;
+	 color: white;
+	 font-family: 'Cormorant Garamond', monospace;
+	 font-weight: 200;
+	 font-size: 15px;
+	 background-image: url('photo/Bus')
+}/*stylesheet*/
+h1, h2, h3, h4, p {
+	 margin-top: 0
+	 margin-bottom: 1em; 
+}
+h1, h2 {
+	font-weight: 700;
+}
+
+a {
+	display: block;
+	width: 150px;
+	height: 30px;
+	background-color: black;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+	text-indent: 2em;
+	border-radius: 15px;
+}
+
+a:hover {
+ 	background-color: #1E1E1E;
+ 	transition: all .3s ease-in-out
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: black;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+.banner {
+	height: 421px;
+	background-color: #1E1E1E;
+}
+
+.banner .w {
+	height: 421px;
+	background: url("Photo/Bus") no-repeat top center;
+}
+
+.subnav {
+	width: 200px;
+	height: 421px;
+	background-color: rgb(0,0,0, 0.3);
+}
+
+.subnav ul li {
+	height: 45px;
+	line-height: 20px;
+	padding: 0 10px;
+}
+
+.subnav ul li a {
+	width: 150px;
+	height: 20px;
+	font-size: 14px;
+	color: white;
+}
+
+.subnav ul li a:hover {
+	color: #757575;
+	background-color: black;
+ 	transition: all .3s ease-in-out
+}
+
+
+.subnav ul li a span {
+	float: right;
+}
+
+.pic-slid {
+	position: relative;
+	width: 900px;
+	height: 421px;
+	background-color: white;
+	float: right;
+}
+
+.pic-slid img {
+	width: 900px auto;
+	height: 421px;
+	float: right;
+}
+
+.prev {
+	position: absolute;
+	margin-top: 200px;
+	left: 30px;
+	top:  0;
+	width: 50px;
+	height: 30px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 30px;
+	color: white;
+	background: rgba(0,0,0, 0.3);
+}
+
+.next {
+	position: absolute;
+	margin-top: 200px;
+	right: 30px;
+	top:  0;
+	width: 50px;
+	height: 30px;
+	text-align: center;
+	text-decoration: none;
+	line-height: 30px;
+	color: white;
+	background: rgba(0,0,0, 0.3);
+}
+
+.pic-nav {
+	position: absolute;
+	bottom: 20px;
+	left: 50%;
+	width: 70px;
+	height: 19px;
+	margin-left: -35px;
+	background-color: rgba(255,255,255, 0.3);
+	border-radius: 15px;
+}
+
+.pic-nav li {
+	width: 8px;
+	height: 8px;
+	background-color: white;
+	border-radius: 50%;
+	margin: 4.5px;
+	float: left;
+}
+
+.pic-nav .selected {
+	background-color: rgba(0,0,0, 0.7);
+}
+/* 距离 */
+.boxs {
+	width: 1226px;
+	height: 200px;
+	background color: black;
+	margin: 0px;
+}
+
+.box { 
+	width: 1226px;
+	height: 615px;
+	background color: black;
+	margin: 0 auto;
+}
+
+.box1 {
+	width: 1226px;
+	height: 130px;
+	background color: black;
+	margin: 0 auto;
+}
+
+.box2 {
+	width: 1226px;
+	height: 200px;
+	background color: black;
+	margin: 0 auto;
+}
+
+
+.dream {
+	width: 296px;
+	height: 285px;
+	background-color: black;
+	margin-right: 14px;
+	margin-left: 50px;
+	float: left;
+}
+
+/* Artwork poster design */
+.poster {
+	width: 400px;
+	height: 285px;
+	background-color: black;
+	margin-right: 14px;
+	float: left;
+}
+
+.poster img {
+	width: 100%;
+}
+
+
+/* card game design */
+.cardgame {
+	width: 400px;
+	height: 285px;
+	background-color: black;
+	margin-right: 14px;
+	float: left;
+
+}
+
+.cardgame img {
+	width: 100%;
+}
+
+/* App design */
+.app {
+	width: 400px;
+	height: 285px;
+	background-color: black;
+	margin-right: 0px;
+	margin-top: 14px;
+	float: left;
+
+}
+
+.app img {
+	height: 80%;
+}
+
+/* Typebook design */
+.typebook {
+	width: 400px;
+	height: 285px;
+	background-color: black;
+	margin-right: 14px;
+	margin-top: 14px;
+	float: left;
+}
+
+.typebook img {
+	width: 88%;
+}
+
+/* P3 project */
+.bao {
+	width:600px;
+	height: 600px;
+	background-color:black;
+	position: relative;
+	text-align: center;
+	line-height: 100px;
+
+}
+
+.bao img {
+	width: 600px; 
+	height: 400px;
+	position: absolute; left:50%; top: 40%; 
+	margin-left: 0px;
+	margin-top: -30px;
+}
+
+.bao h1 {
+	vertical-align: middle;
+	font-size:200px;
+	margin-left: 400px;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: url(../img/background.jpg);
+    background-attachment: fixed;
+}
+
+
+/* P2 project */
+.corpseh {
+	width: 200px;
+	height: 120px;
+	background-color: black;
+	float: left;
+}
+
+.corpseh img {
+	width: 100%;
+}
+
+.corpseb {
+	width: 200px;
+	height: 200px;
+	background-color: black;
+	float: left;
+}
+
+.corpseb img {
+	width: 100%;
+}
+
+.corpsef {
+	width: 200px;
+	height: 120px;
+	background-color: black;
+	float: left;
+}
+
+.corpsef img {
+	width: 100%;
+}
+
+.left1 {
+	width: 500px;
+	height: 130px;
+	background-color: black;
+	float: left;
+	margin-left: 50px;
+	text-align: center;
+	font-size: 15px;
+}
+
+.Name {
+	width: 500px;
+	height: 35px;
+	background-color: black;
+	float: right;
+	font-size: 13px;
+	text-align: right;
+}
+
+/* P1 Project */
+.left {
+	float: left;
+	width: 400px;
+	height: 615px;
+	background: black;
+
+}
+
+.right {
+	float: left;
+	width: 774px;
+	height: 615px;
+	background: black;
+	margin-left: 2em;
+	justify-content: center;
+
+}
+
+.w {
+	width: 1000px;
+	margin: auto;
+}
+
+.header {
+	height: 42px;
+	margin: 30px auto;
+}
+
+#wrapper {
+	margin: 15em auto;
+	max-width: 1200px;
+	align-items: center;
+	justify-content: center;
+}
+
+
+#main {
+	background: black;
+	margin: 2em;
+	padding: 2em;
+}
+
+#sidebar {
+	background: black;
+}
+
+#logo {
+	padding: 3em 0
+}
+
+#logo h1 {
+    margin: 0;
+}
+#logo img, .item img {
+	width: 100%;
+	height: auto;
+}
+.item img {
+	margin-bottom: 0em;
+	border-radius: 0px;
+	height: 500px;
+}
+#content {
+	/*background: black;*/
+	margin: 2em;
+	padding: 2em;
+	width: 350px;
+}
+/* Change the link color on hover */
+
+#exquisite {
+	position: relative;
+	margin-bottom: 0em;
+}
+
+#exquisite 
+	grid-gap: 0;
+}
+
+#exquisite .grid img {
+	margin-bottom: 0;
+}
+
+#exquisity .grid {
+	grid-gap: 0;
+}
+
+body.p1 {
+	background-image: url("../images/clouds.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+/* ------------ */
+
+
+@media (min-width: 699px) {
+	#wrapper {
+		margin: 0em auto;
+	}
+	#main {
+		margin: 1em;
+		padding: 0em;
+	}
+	#logo {
+		text-align: center;
+		padding: 2em 0;
+	}
+	#nav ul {
+		display:flex;
+		justify-content: space-between;
+
+	}
+}
+
+
+
+
